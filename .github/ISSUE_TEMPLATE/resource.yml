@@ -1,0 +1,68 @@
+name: 推荐新资源
+description: 推荐一个值得验证和收录的追剧相关资源
+title: "[推荐] "
+labels: ["resource", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。请如实说明资源体验和已知风险，不要提交单部影视作品链接。
+  - type: input
+    id: name
+    attributes:
+      label: 资源名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 主页 URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 在线影视
+        - 网盘资源搜索
+        - 磁力链接搜索
+        - 字幕
+        - 播放器
+        - 订阅源
+        - 会员优惠
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 资源简介
+      description: 它解决什么问题？是否需要登录、付费或安装软件？
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: 已知风险
+      description: 请说明广告、跳转、诱导下载、隐私、版权和支付风险。
+    validations:
+      required: true
+  - type: input
+    id: checked_at
+    attributes:
+      label: 测试日期与地区
+      placeholder: 2026-06-06，中国大陆
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有提交单部影视作品链接、账号、密钥或破解内容。
+          required: true
+        - label: 我已披露与该资源的推广或利益关系。
+          required: true
+

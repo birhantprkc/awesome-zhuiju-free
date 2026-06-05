@@ -1,0 +1,266 @@
+{
+  "$schema": "./schema.json",
+  "version": 1,
+  "updated_at": "2026-06-06",
+  "resources": [
+    {
+      "id": "cctv-tv",
+      "name": "CCTV 节目官网",
+      "url": "https://tv.cctv.com/",
+      "category": "online_video",
+      "summary": "中央广播电视总台的节目与频道观看入口。",
+      "tags": ["官方", "电视", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "mostly_free",
+        "regions": ["CN"]
+      },
+      "scores": {
+        "more": 3.5,
+        "speed": 4.5,
+        "clean": 4.0,
+        "stable": 4.8,
+        "ease": 4.2
+      },
+      "risks": {
+        "copyright": "low",
+        "safety": "low",
+        "privacy": "medium",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "主页与节目入口可访问；部分内容可能受地区或播出许可限制。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "1905-vod",
+      "name": "1905 电影网",
+      "url": "https://www.1905.com/vod/",
+      "category": "online_video",
+      "summary": "电影频道旗下的正版电影内容与影视资讯平台。",
+      "tags": ["官方", "电影", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "partly_free",
+        "regions": ["CN"]
+      },
+      "scores": {
+        "more": 3.8,
+        "speed": 4.2,
+        "clean": 3.5,
+        "stable": 4.5,
+        "ease": 4.0
+      },
+      "risks": {
+        "copyright": "low",
+        "safety": "low",
+        "privacy": "medium",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "主页可访问；免费与会员内容并存。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "internet-archive-movies",
+      "name": "Internet Archive Movies",
+      "url": "https://archive.org/details/movies",
+      "category": "online_video",
+      "summary": "Internet Archive 的电影与视频资料集合，包含公共领域和用户上传内容。",
+      "tags": ["公共领域", "历史影像", "英文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.2,
+        "speed": 3.0,
+        "clean": 4.8,
+        "stable": 4.6,
+        "ease": 3.5
+      },
+      "risks": {
+        "copyright": "medium",
+        "safety": "low",
+        "privacy": "low",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "集合页可访问；用户上传内容的授权状态需要逐项判断。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "opensubtitles",
+      "name": "OpenSubtitles",
+      "url": "https://www.opensubtitles.com/zh-CN",
+      "category": "subtitles",
+      "summary": "多语言社区字幕搜索与下载平台。",
+      "tags": ["字幕", "多语言", "社区上传"],
+      "access": {
+        "requires_login": false,
+        "free_level": "partly_free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.8,
+        "speed": 3.2,
+        "clean": 2.8,
+        "stable": 4.5,
+        "ease": 3.5
+      },
+      "risks": {
+        "copyright": "medium",
+        "safety": "medium",
+        "privacy": "medium",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "搜索入口可访问；含广告和用户上传内容，下载前需自行判断。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "url": "https://kodi.tv/",
+      "category": "player",
+      "summary": "开源、跨平台的家庭媒体中心软件。",
+      "tags": ["开源", "播放器", "跨平台"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.5,
+        "speed": 4.0,
+        "clean": 5.0,
+        "stable": 4.8,
+        "ease": 3.8
+      },
+      "risks": {
+        "copyright": "low",
+        "safety": "low",
+        "privacy": "low",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "官网与下载入口可访问；第三方插件风险需要单独判断。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "iptv-org",
+      "name": "IPTV-org",
+      "url": "https://github.com/iptv-org/iptv",
+      "category": "subscription",
+      "summary": "社区维护的公开 IPTV 频道集合与相关数据。",
+      "tags": ["IPTV", "开源", "订阅源"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.5,
+        "speed": 3.5,
+        "clean": 5.0,
+        "stable": 4.0,
+        "ease": 3.0
+      },
+      "risks": {
+        "copyright": "medium",
+        "safety": "medium",
+        "privacy": "low",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "仓库可访问；频道可用性与许可状态因来源而异。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "academic-torrents",
+      "name": "Academic Torrents",
+      "url": "https://academictorrents.com/",
+      "category": "magnet_search",
+      "summary": "面向科研数据集与论文附件的 BitTorrent 分发平台。",
+      "tags": ["科研", "数据集", "BitTorrent"],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 2.8,
+        "speed": 3.5,
+        "clean": 4.8,
+        "stable": 4.2,
+        "ease": 3.2
+      },
+      "risks": {
+        "copyright": "low",
+        "safety": "medium",
+        "privacy": "medium",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-06-06",
+        "method": "manual",
+        "notes": "站点可访问；使用 BitTorrent 时需了解网络隐私与所在地区规则。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-06"
+      },
+      "featured": true
+    }
+  ]
+}

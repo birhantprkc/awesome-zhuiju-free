@@ -1,0 +1,40 @@
+name: 报告失效或风险
+description: 报告资源无法访问、评分变化或新的安全风险
+title: "[报告] "
+labels: ["report", "needs-verification"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: 资源名称或 ID
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 相关 URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: 问题类型
+      options:
+        - 无法访问
+        - 域名变更
+        - 广告或跳转增加
+        - 恶意软件或钓鱼
+        - 评分不准确
+        - 版权或合规问题
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题详情
+      description: 请说明时间、地区、网络环境和复现步骤。不要公开敏感信息。
+    validations:
+      required: true
+

@@ -1,0 +1,44 @@
+name: 权利人请求
+description: 请求复核、修改或移除一条资源收录
+title: "[权利请求] "
+labels: ["rights-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请仅公开处理所需的信息，不要在 Issue 中提交身份证件、住址等敏感材料。
+  - type: input
+    id: resource
+    attributes:
+      label: 涉及的资源或仓库 URL
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: 请求依据
+      description: 请说明你的权利基础，以及可公开核验的信息。
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: 希望采取的措施
+      description: 例如更正描述、断开链接或移除收录。
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 建议使用工作邮箱。该信息会出现在公开 Issue 中。
+    validations:
+      required: true
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: 声明
+      options:
+        - label: 我确认以上信息真实准确，并有权提出此请求。
+          required: true
+
