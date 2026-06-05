@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T20:36:07.879Z",
+  "generated_at": "2026-06-05T20:38:23.946Z",
   "checker": {
     "environment": "github-actions",
     "timeout_ms": 15000,
@@ -15,8 +15,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://tv.cctv.com/",
-      "response_ms": 328,
-      "checked_at": "2026-06-05T20:36:07.074Z",
+      "response_ms": 678,
+      "checked_at": "2026-06-05T20:38:22.827Z",
       "attempts": 1,
       "error": null
     },
@@ -26,8 +26,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.1905.com/vod/",
-      "response_ms": 416,
-      "checked_at": "2026-06-05T20:36:07.133Z",
+      "response_ms": 726,
+      "checked_at": "2026-06-05T20:38:22.948Z",
       "attempts": 1,
       "error": null
     },
@@ -37,8 +37,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://archive.org/details/movies",
-      "response_ms": 488,
-      "checked_at": "2026-06-05T20:36:07.134Z",
+      "response_ms": 492,
+      "checked_at": "2026-06-05T20:38:22.950Z",
       "attempts": 1,
       "error": null
     },
@@ -48,19 +48,19 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.opensubtitles.com/zh-CN",
-      "response_ms": 305,
-      "checked_at": "2026-06-05T20:36:07.136Z",
+      "response_ms": 456,
+      "checked_at": "2026-06-05T20:38:22.951Z",
       "attempts": 1,
       "error": null
     },
     {
       "resource_id": "kodi",
       "url": "https://kodi.tv/",
-      "status": "reachable",
-      "http_status": 200,
+      "status": "restricted",
+      "http_status": 403,
       "final_url": "https://kodi.tv/",
-      "response_ms": 63,
-      "checked_at": "2026-06-05T20:36:07.402Z",
+      "response_ms": 229,
+      "checked_at": "2026-06-05T20:38:23.408Z",
       "attempts": 1,
       "error": null
     },
@@ -70,8 +70,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://github.com/iptv-org/iptv",
-      "response_ms": 438,
-      "checked_at": "2026-06-05T20:36:07.441Z",
+      "response_ms": 504,
+      "checked_at": "2026-06-05T20:38:23.442Z",
       "attempts": 1,
       "error": null
     },
@@ -81,8 +81,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://academictorrents.com/",
-      "response_ms": 82,
-      "checked_at": "2026-06-05T20:36:07.465Z",
+      "response_ms": 144,
+      "checked_at": "2026-06-05T20:38:23.505Z",
       "attempts": 1,
       "error": null
     }

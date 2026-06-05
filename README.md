@@ -192,7 +192,7 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center">4.0</td>
       <td align="center">5.0</td>
       <td align="center">4.8</td>
-      <td align="center"><!-- availability:kodi -->🟢 可&#8288;访问<!-- /availability:kodi --></td>
+      <td align="center"><!-- availability:kodi -->🟡 访问&#8288;受限<!-- /availability:kodi --></td>
       <td align="center"><!-- availability-date:kodi -->2026&#8209;06&#8209;06<!-- /availability-date:kodi --></td>
     </tr>
   </tbody>
