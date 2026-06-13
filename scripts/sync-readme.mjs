@@ -79,14 +79,39 @@ function shortSummary(resource) {
 }
 
 function recommendationStars(resource) {
+  const rating = recommendationRating(resource);
+  return Array.from({ length: rating }, () => "🌟").join("&#8288;");
+}
+
+function recommendationRating(resource) {
   const average =
     (resource.scores.more +
       resource.scores.speed +
       resource.scores.clean +
       resource.scores.stable) /
     4;
-  const rating = Math.min(5, Math.max(1, Math.round(average)));
-  return Array.from({ length: rating }, () => "🌟").join("&#8288;");
+  return Math.min(5, Math.max(1, Math.round(average)));
+}
+
+function addedAtTime(resource) {
+  const timestamp = Date.parse(resource.source?.added_at ?? "");
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+function manualFeaturedOrder(resource) {
+  return Number.isFinite(resource.featured_order)
+    ? resource.featured_order
+    : Number.POSITIVE_INFINITY;
+}
+
+function sortFeaturedResources(resources) {
+  return [...resources].sort((left, right) => {
+    return (
+      manualFeaturedOrder(left) - manualFeaturedOrder(right) ||
+      recommendationRating(right) - recommendationRating(left) ||
+      addedAtTime(right) - addedAtTime(left)
+    );
+  });
 }
 
 function tableFor(resources, availabilityById) {
@@ -97,7 +122,7 @@ function tableFor(resources, availabilityById) {
       const checkedAt = dateInTimeZone(availability?.checked_at);
 
       return `    <tr>
-      <td><a href="${escapeHtml(resource.url)}">${escapeHtml(resource.name)}</a></td>
+      <td><a href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a></td>
       <td>${escapeHtml(shortSummary(resource))}</td>
       <td align="center" nowrap>${recommendationStars(resource)}</td>
       <td align="center" nowrap><!-- availability:${resource.id} -->${status}<!-- /availability:${resource.id} --></td>
@@ -123,7 +148,9 @@ ${rows}
 }
 
 function categorySection(category, resources, availabilityById) {
-  const categoryResources = resources.filter((resource) => resource.category === category.id);
+  const categoryResources = sortFeaturedResources(
+    resources.filter((resource) => resource.category === category.id)
+  );
   let content;
 
   if (categoryResources.length > 0) {

@@ -76,6 +76,12 @@ for (const [index, resource] of (resourcesData?.resources ?? []).entries()) {
       `${path}.summary_short: required for featured resources`
     );
   }
+  if (resource.featured_order !== undefined) {
+    check(
+      Number.isInteger(resource.featured_order) && resource.featured_order >= 1,
+      `${path}.featured_order: expected an integer greater than or equal to 1`
+    );
+  }
   check(typeof resource.name === "string" && resource.name.length > 0, `${path}.name: required`);
   check(typeof resource.url === "string" && resource.url.startsWith("https://"), `${path}.url: expected HTTPS URL`);
   check(categories.has(resource.category), `${path}.category: unknown category "${resource.category}"`);

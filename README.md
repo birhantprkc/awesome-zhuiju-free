@@ -73,21 +73,21 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://tv.cctv.com/">CCTV 节目官网</a></td>
+      <td><a href="https://tv.cctv.com/" target="_blank" rel="noopener noreferrer">CCTV 节目官网</a></td>
       <td>总台节目与频道观看入口</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:cctv-tv -->🟢&#8288;可&#8288;访问<!-- /availability:cctv-tv --></td>
       <td align="center"><!-- availability-date:cctv-tv -->2026&#8209;06&#8209;13<!-- /availability-date:cctv-tv --></td>
     </tr>
     <tr>
-      <td><a href="https://www.1905.com/vod/">1905 电影网</a></td>
+      <td><a href="https://www.1905.com/vod/" target="_blank" rel="noopener noreferrer">1905 电影网</a></td>
       <td>正版电影内容与影视资讯</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:1905-vod -->🟢&#8288;可&#8288;访问<!-- /availability:1905-vod --></td>
       <td align="center"><!-- availability-date:1905-vod -->2026&#8209;06&#8209;13<!-- /availability-date:1905-vod --></td>
     </tr>
     <tr>
-      <td><a href="https://archive.org/details/movies">Internet Archive Movies</a></td>
+      <td><a href="https://archive.org/details/movies" target="_blank" rel="noopener noreferrer">Internet Archive Movies</a></td>
       <td>公共领域与用户上传视频资料</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:internet-archive-movies -->🟢&#8288;可&#8288;访问<!-- /availability:internet-archive-movies --></td>
@@ -112,7 +112,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://www.kuake.so/">夸克点搜</a></td>
+      <td><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
       <td>夸克网盘资源搜索平台</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kuake-so-1 -->🔴&#8288;无法&#8288;访问<!-- /availability:kuake-so-1 --></td>
@@ -137,7 +137,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://academictorrents.com/">Academic Torrents</a></td>
+      <td><a href="https://academictorrents.com/" target="_blank" rel="noopener noreferrer">Academic Torrents</a></td>
       <td>面向科研数据集的 BitTorrent 分发平台</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:academic-torrents -->🟢&#8288;可&#8288;访问<!-- /availability:academic-torrents --></td>
@@ -162,7 +162,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://www.opensubtitles.com/zh-CN">OpenSubtitles</a></td>
+      <td><a href="https://www.opensubtitles.com/zh-CN" target="_blank" rel="noopener noreferrer">OpenSubtitles</a></td>
       <td>多语言社区字幕搜索与下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:opensubtitles -->🟡&#8288;访问&#8288;受限<!-- /availability:opensubtitles --></td>
@@ -187,7 +187,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://kodi.tv/">Kodi</a></td>
+      <td><a href="https://kodi.tv/" target="_blank" rel="noopener noreferrer">Kodi</a></td>
       <td>开源、跨平台家庭媒体中心</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kodi -->🟡&#8288;访问&#8288;受限<!-- /availability:kodi --></td>
@@ -212,7 +212,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/iptv-org/iptv">IPTV-org</a></td>
+      <td><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">IPTV-org</a></td>
       <td>社区维护的公开 IPTV 频道集合</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:iptv-org -->🟢&#8288;可&#8288;访问<!-- /availability:iptv-org --></td>

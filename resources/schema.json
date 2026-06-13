@@ -207,6 +207,10 @@
         },
         "featured": {
           "type": "boolean"
+        },
+        "featured_order": {
+          "type": "integer",
+          "minimum": 1
         }
       }
     }
