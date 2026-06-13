@@ -38,7 +38,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 <!-- featured-resources:start -->
 <p align="center">
   <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-3-2563eb?style=flat-square" alt="在线影视"></a>
-  <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-0-64748b?style=flat-square" alt="网盘资源搜索"></a>
+  <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-1-64748b?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力与-bt-搜索"><img src="https://img.shields.io/badge/磁力与_BT-1-7c3aed?style=flat-square" alt="磁力与 BT 搜索"></a>
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-1-d97706?style=flat-square" alt="字幕资源"></a>
   <a href="#tvbox播放器"><img src="https://img.shields.io/badge/TVbox播放器-1-059669?style=flat-square" alt="TVbox播放器"></a>
@@ -110,7 +110,32 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 
 ### 网盘资源搜索
 
-_等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%">资源</th>
+      <th width="27%">简介</th>
+      <th width="5%">多</th>
+      <th width="5%">快</th>
+      <th width="5%">净</th>
+      <th width="5%">稳</th>
+      <th width="8%">状&#8288;态</th>
+      <th width="15%">检&#8288;测</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.kuake.so/">夸克点搜</a></td>
+      <td>夸克网盘资源搜索平台</td>
+      <td align="center">3.0</td>
+      <td align="center">3.0</td>
+      <td align="center">3.0</td>
+      <td align="center">3.0</td>
+      <td align="center"><!-- availability:kuake-so-1 -->🟢 可&#8288;访问<!-- /availability:kuake-so-1 --></td>
+      <td align="center"><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;13<!-- /availability-date:kuake-so-1 --></td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 

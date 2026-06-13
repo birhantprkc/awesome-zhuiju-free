@@ -275,7 +275,8 @@
       "url": "https://www.kuake.so/",
       "category": "cloud_search",
       "summary": "夸克点搜是一个免费的夸克网盘资源搜索平台，通过聚合互联网上公开分享的夸克网盘资源链接，为用户提供快速、精准的搜索服务。",
-      "tags": [],
+      "summary_short": "夸克网盘资源搜索平台",
+      "tags": ["网盘搜索", "夸克网盘", "中文"],
       "access": {
         "requires_login": false,
         "free_level": "unknown",
@@ -289,22 +290,22 @@
         "ease": 3.0
       },
       "risks": {
-        "copyright": "unknown",
-        "safety": "unknown",
+        "copyright": "medium",
+        "safety": "medium",
         "privacy": "unknown",
-        "payment": "unknown"
+        "payment": "low"
       },
       "verification": {
-        "status": "pending",
+        "status": "caution",
         "last_checked": "2026-06-06",
         "method": "manual",
-        "notes": "候选资源，等待维护者验证。提交者风险说明：无广告"
+        "notes": "候选资源已收录为精选；聚合公开网盘分享链接，内容版权与链接安全需要用户自行判断。提交者风险说明：无广告。"
       },
       "source": {
         "submitted_by": "@laoma2053",
         "added_at": "2026-06-06"
       },
-      "featured": false
+      "featured": true
     }
   ]
 }
