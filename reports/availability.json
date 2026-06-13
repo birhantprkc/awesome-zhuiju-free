@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-13T13:35:58.671Z",
+  "generated_at": "2026-06-13T13:48:13.169Z",
   "checker": {
     "environment": "github-actions",
     "timeout_ms": 15000,
@@ -12,13 +12,13 @@
     {
       "resource_id": "no-video",
       "url": "https://www.novipnoad.cc/",
-      "status": "unknown",
-      "http_status": null,
-      "final_url": null,
-      "response_ms": null,
-      "checked_at": "2026-06-13T13:43:14.929Z",
-      "attempts": 0,
-      "error": "waiting for next GitHub Actions availability check"
+      "status": "restricted",
+      "http_status": 403,
+      "final_url": "https://www.novipnoad.cc/",
+      "response_ms": 576,
+      "checked_at": "2026-06-13T13:48:12.002Z",
+      "attempts": 1,
+      "error": null
     },
     {
       "resource_id": "opensubtitles",
@@ -26,8 +26,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.opensubtitles.com/zh-CN",
-      "response_ms": 751,
-      "checked_at": "2026-06-13T13:35:46.680Z",
+      "response_ms": 181,
+      "checked_at": "2026-06-13T13:48:12.044Z",
       "attempts": 1,
       "error": null
     },
@@ -37,8 +37,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://kodi.tv/",
-      "response_ms": 33,
-      "checked_at": "2026-06-13T13:35:47.431Z",
+      "response_ms": 183,
+      "checked_at": "2026-06-13T13:48:12.046Z",
       "attempts": 1,
       "error": null
     },
@@ -48,8 +48,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://github.com/iptv-org/iptv",
-      "response_ms": 379,
-      "checked_at": "2026-06-13T13:35:47.459Z",
+      "response_ms": 643,
+      "checked_at": "2026-06-13T13:48:12.047Z",
       "attempts": 1,
       "error": null
     },
@@ -59,21 +59,21 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://academictorrents.com/",
-      "response_ms": 111,
-      "checked_at": "2026-06-13T13:35:47.464Z",
+      "response_ms": 138,
+      "checked_at": "2026-06-13T13:48:12.225Z",
       "attempts": 1,
       "error": null
     },
     {
       "resource_id": "kuake-so-1",
       "url": "https://www.kuake.so/",
-      "status": "unreachable",
-      "http_status": null,
-      "final_url": null,
-      "response_ms": 11096,
-      "checked_at": "2026-06-13T13:35:47.575Z",
-      "attempts": 2,
-      "error": "fetch failed"
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.kuake.so/",
+      "response_ms": 940,
+      "checked_at": "2026-06-13T13:48:12.229Z",
+      "attempts": 1,
+      "error": null
     }
   ]
 }

@@ -76,7 +76,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
       <td><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
       <td>海外影视剧资源聚合站</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:no-video -->⚪&#8288;未&#8288;检测<!-- /availability:no-video --></td>
+      <td align="center" nowrap><!-- availability:no-video -->🟡&#8288;访问&#8288;受限<!-- /availability:no-video --></td>
       <td align="center"><!-- availability-date:no-video -->2026&#8209;06&#8209;13<!-- /availability-date:no-video --></td>
     </tr>
   </tbody>
@@ -101,7 +101,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
       <td><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
       <td>夸克网盘资源搜索平台</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:kuake-so-1 -->🔴&#8288;无法&#8288;访问<!-- /availability:kuake-so-1 --></td>
+      <td align="center" nowrap><!-- availability:kuake-so-1 -->🟢&#8288;可&#8288;访问<!-- /availability:kuake-so-1 --></td>
       <td align="center"><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;13<!-- /availability-date:kuake-so-1 --></td>
     </tr>
   </tbody>
