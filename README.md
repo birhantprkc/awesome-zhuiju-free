@@ -24,20 +24,6 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 
 ---
 
-## 怎么快速选择
-
-如果你只是想尽快找到合适入口，可以先按用途筛选，再看推荐指数、状态和检测时间。
-
-| 需求 | 优先看 | 适合场景 | 先注意 |
-| --- | --- | --- | --- |
-| 直接在线看 | 在线影视 | 临时追剧、确认片源是否存在 | 广告、跳转、版权与安全风险 |
-| 找追剧应用 | 影视APP | 手机、电视端安装应用追剧 | 安装来源、权限和安全风险 |
-| 找网盘分享 | 网盘资源搜索 | 想保存到网盘或找合集 | 分享链接有效期、诱导下载与版权风险 |
-| 找磁力入口 | 磁力& BT | 想找磁力、BT 或相关资源站 | 版权、链接安全与下载隐私风险 |
-| 找字幕 | 字幕资源 | 外语片、冷门片、版本匹配 | 字幕版本、上传来源与下载安全 |
-| 电视端播放 | TVbox播放器、订阅源 | 电视盒子、NAS、客厅播放 | 插件、订阅源与频道来源是否可信 |
-| 省会员费用 | 会员拼团 | 正规会员合租或优惠信息 | 支付规则、账号归属和售后风险 |
-
 ## 精选资源
 
 <!-- featured-resources:start -->
@@ -68,104 +54,104 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 <table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://www.duonaovod.com" target="_blank" rel="noopener noreferrer">多瑙影视</a></td>
+      <td nowrap><a href="https://www.duonaovod.com" target="_blank" rel="noopener noreferrer">多瑙影视</a></td>
       <td nowrap>海外华人在线影院，需梯子</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:duonao-video -->🟢&#8288;可&#8288;访问<!-- /availability:duonao-video --></td>
-      <td align="center"><!-- availability-date:duonao-video -->2026&#8209;06&#8209;19<!-- /availability-date:duonao-video --></td>
+      <td align="center" nowrap><!-- availability-date:duonao-video -->2026&#8209;06&#8209;19<!-- /availability-date:duonao-video --></td>
     </tr>
     <tr>
-      <td><a href="https://www.tdgo.shop" target="_blank" rel="noopener noreferrer">火车太堵</a></td>
+      <td nowrap><a href="https://www.tdgo.shop" target="_blank" rel="noopener noreferrer">火车太堵</a></td>
       <td nowrap>全网蓝光急速观影</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:tdgo -->🟢&#8288;可&#8288;访问<!-- /availability:tdgo --></td>
-      <td align="center"><!-- availability-date:tdgo -->2026&#8209;06&#8209;19<!-- /availability-date:tdgo --></td>
+      <td align="center" nowrap><!-- availability-date:tdgo -->2026&#8209;06&#8209;19<!-- /availability-date:tdgo --></td>
     </tr>
     <tr>
-      <td><a href="https://kuhh4jo.com" target="_blank" rel="noopener noreferrer">爱电影</a></td>
+      <td nowrap><a href="https://kuhh4jo.com" target="_blank" rel="noopener noreferrer">爱电影</a></td>
       <td nowrap>最新热门电影/电视剧</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:ai-movie -->🟢&#8288;可&#8288;访问<!-- /availability:ai-movie --></td>
-      <td align="center"><!-- availability-date:ai-movie -->2026&#8209;06&#8209;19<!-- /availability-date:ai-movie --></td>
+      <td align="center" nowrap><!-- availability-date:ai-movie -->2026&#8209;06&#8209;19<!-- /availability-date:ai-movie --></td>
     </tr>
     <tr>
-      <td><a href="https://jpyy2.com" target="_blank" rel="noopener noreferrer">金牌影视</a></td>
+      <td nowrap><a href="https://jpyy2.com" target="_blank" rel="noopener noreferrer">金牌影视</a></td>
       <td nowrap>全网VIP资源</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:jpyy -->🔴&#8288;无法&#8288;访问<!-- /availability:jpyy --></td>
-      <td align="center"><!-- availability-date:jpyy -->2026&#8209;06&#8209;19<!-- /availability-date:jpyy --></td>
+      <td align="center" nowrap><!-- availability-date:jpyy -->2026&#8209;06&#8209;19<!-- /availability-date:jpyy --></td>
     </tr>
     <tr>
-      <td><a href="https://www.937tv.vip" target="_blank" rel="noopener noreferrer">937影视</a></td>
+      <td nowrap><a href="https://www.937tv.vip" target="_blank" rel="noopener noreferrer">937影视</a></td>
       <td nowrap>看全网影视剧</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:tv-937 -->🟡&#8288;访问&#8288;受限<!-- /availability:tv-937 --></td>
-      <td align="center"><!-- availability-date:tv-937 -->2026&#8209;06&#8209;19<!-- /availability-date:tv-937 --></td>
+      <td align="center" nowrap><!-- availability-date:tv-937 -->2026&#8209;06&#8209;19<!-- /availability-date:tv-937 --></td>
     </tr>
     <tr>
-      <td><a href="https://iyf.tv" target="_blank" rel="noopener noreferrer">爱壹帆</a></td>
+      <td nowrap><a href="https://iyf.tv" target="_blank" rel="noopener noreferrer">爱壹帆</a></td>
       <td nowrap>面向海外华人的影视站，需梯子</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:iyf -->🟢&#8288;可&#8288;访问<!-- /availability:iyf --></td>
-      <td align="center"><!-- availability-date:iyf -->2026&#8209;06&#8209;19<!-- /availability-date:iyf --></td>
+      <td align="center" nowrap><!-- availability-date:iyf -->2026&#8209;06&#8209;19<!-- /availability-date:iyf --></td>
     </tr>
     <tr>
-      <td><a href="https://gaze.red/" target="_blank" rel="noopener noreferrer">注视影视</a></td>
+      <td nowrap><a href="https://gaze.red/" target="_blank" rel="noopener noreferrer">注视影视</a></td>
       <td nowrap>国内海外影视剧资源，需梯子</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:gaze-red -->🟡&#8288;访问&#8288;受限<!-- /availability:gaze-red --></td>
-      <td align="center"><!-- availability-date:gaze-red -->2026&#8209;06&#8209;19<!-- /availability-date:gaze-red --></td>
+      <td align="center" nowrap><!-- availability-date:gaze-red -->2026&#8209;06&#8209;19<!-- /availability-date:gaze-red --></td>
     </tr>
     <tr>
-      <td><a href="https://www.hainatv.net" target="_blank" rel="noopener noreferrer">海纳TV</a></td>
+      <td nowrap><a href="https://www.hainatv.net" target="_blank" rel="noopener noreferrer">海纳TV</a></td>
       <td nowrap>高清蓝光画质/实时更新</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:haina-tv -->🟢&#8288;可&#8288;访问<!-- /availability:haina-tv --></td>
-      <td align="center"><!-- availability-date:haina-tv -->2026&#8209;06&#8209;19<!-- /availability-date:haina-tv --></td>
+      <td align="center" nowrap><!-- availability-date:haina-tv -->2026&#8209;06&#8209;19<!-- /availability-date:haina-tv --></td>
     </tr>
     <tr>
-      <td><a href="https://libviobd.com" target="_blank" rel="noopener noreferrer">LIBVIO</a></td>
+      <td nowrap><a href="https://libviobd.com" target="_blank" rel="noopener noreferrer">LIBVIO</a></td>
       <td nowrap>海外影视的老牌网站，发布页www.libvio.app</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:libvio -->🟢&#8288;可&#8288;访问<!-- /availability:libvio --></td>
-      <td align="center"><!-- availability-date:libvio -->2026&#8209;06&#8209;19<!-- /availability-date:libvio --></td>
+      <td align="center" nowrap><!-- availability-date:libvio -->2026&#8209;06&#8209;19<!-- /availability-date:libvio --></td>
     </tr>
     <tr>
-      <td><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
+      <td nowrap><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
       <td nowrap>海外影视剧资源聚合站</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:no-video -->🟡&#8288;访问&#8288;受限<!-- /availability:no-video --></td>
-      <td align="center"><!-- availability-date:no-video -->2026&#8209;06&#8209;19<!-- /availability-date:no-video --></td>
+      <td align="center" nowrap><!-- availability-date:no-video -->2026&#8209;06&#8209;19<!-- /availability-date:no-video --></td>
     </tr>
     <tr>
-      <td><a href="https://www.sotvla.cc/" target="_blank" rel="noopener noreferrer">搜TV啦</a></td>
+      <td nowrap><a href="https://www.sotvla.cc/" target="_blank" rel="noopener noreferrer">搜TV啦</a></td>
       <td nowrap>国内海外高清影视剧资源</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:sotvla -->🟢&#8288;可&#8288;访问<!-- /availability:sotvla --></td>
-      <td align="center"><!-- availability-date:sotvla -->2026&#8209;06&#8209;19<!-- /availability-date:sotvla --></td>
+      <td align="center" nowrap><!-- availability-date:sotvla -->2026&#8209;06&#8209;19<!-- /availability-date:sotvla --></td>
     </tr>
     <tr>
-      <td><a href="https://xlys.me/" target="_blank" rel="noopener noreferrer">雪落影视</a></td>
+      <td nowrap><a href="https://xlys.me/" target="_blank" rel="noopener noreferrer">雪落影视</a></td>
       <td nowrap>国内海外影视剧资源</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:xlys -->🟢&#8288;可&#8288;访问<!-- /availability:xlys --></td>
-      <td align="center"><!-- availability-date:xlys -->2026&#8209;06&#8209;19<!-- /availability-date:xlys --></td>
+      <td align="center" nowrap><!-- availability-date:xlys -->2026&#8209;06&#8209;19<!-- /availability-date:xlys --></td>
     </tr>
     <tr>
-      <td><a href="https://www.czzymovie.com" target="_blank" rel="noopener noreferrer">厂长资源</a></td>
+      <td nowrap><a href="https://www.czzymovie.com" target="_blank" rel="noopener noreferrer">厂长资源</a></td>
       <td nowrap>高清、秒播不卡顿，有广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:czzymovie -->🟡&#8288;访问&#8288;受限<!-- /availability:czzymovie --></td>
-      <td align="center"><!-- availability-date:czzymovie -->2026&#8209;06&#8209;19<!-- /availability-date:czzymovie --></td>
+      <td align="center" nowrap><!-- availability-date:czzymovie -->2026&#8209;06&#8209;19<!-- /availability-date:czzymovie --></td>
     </tr>
   </tbody>
 </table>
@@ -183,41 +169,41 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">夸克搜</a></td>
+      <td nowrap><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">夸克搜</a></td>
       <td nowrap>夸克百度网盘搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kuakeso -->🟢&#8288;可&#8288;访问<!-- /availability:kuakeso --></td>
-      <td align="center"><!-- availability-date:kuakeso -->2026&#8209;06&#8209;19<!-- /availability-date:kuakeso --></td>
+      <td align="center" nowrap><!-- availability-date:kuakeso -->2026&#8209;06&#8209;19<!-- /availability-date:kuakeso --></td>
     </tr>
     <tr>
-      <td><a href="https://www.zhuiju.us/" target="_blank" rel="noopener noreferrer">追剧吧</a></td>
+      <td nowrap><a href="https://www.zhuiju.us/" target="_blank" rel="noopener noreferrer">追剧吧</a></td>
       <td nowrap>国内外热门影视网盘资源搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:zhuiju-us -->🟢&#8288;可&#8288;访问<!-- /availability:zhuiju-us --></td>
-      <td align="center"><!-- availability-date:zhuiju-us -->2026&#8209;06&#8209;19<!-- /availability-date:zhuiju-us --></td>
+      <td align="center" nowrap><!-- availability-date:zhuiju-us -->2026&#8209;06&#8209;19<!-- /availability-date:zhuiju-us --></td>
     </tr>
     <tr>
-      <td><a href="https://www.gugeso.com/" target="_blank" rel="noopener noreferrer">谷哥搜</a></td>
+      <td nowrap><a href="https://www.gugeso.com/" target="_blank" rel="noopener noreferrer">谷哥搜</a></td>
       <td nowrap>支持9种网盘的综合搜索站</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:gugeso -->🟢&#8288;可&#8288;访问<!-- /availability:gugeso --></td>
-      <td align="center"><!-- availability-date:gugeso -->2026&#8209;06&#8209;19<!-- /availability-date:gugeso --></td>
+      <td align="center" nowrap><!-- availability-date:gugeso -->2026&#8209;06&#8209;19<!-- /availability-date:gugeso --></td>
     </tr>
     <tr>
-      <td><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
+      <td nowrap><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
       <td nowrap>专注夸克网盘资源搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kuake-so-1 -->🟢&#8288;可&#8288;访问<!-- /availability:kuake-so-1 --></td>
-      <td align="center"><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;19<!-- /availability-date:kuake-so-1 --></td>
+      <td align="center" nowrap><!-- availability-date:kuake-so-1 -->2026&#8209;06&#8209;19<!-- /availability-date:kuake-so-1 --></td>
     </tr>
   </tbody>
 </table>
@@ -229,27 +215,27 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://www.mjf2020.com" target="_blank" rel="noopener noreferrer">美剧粉</a></td>
+      <td nowrap><a href="https://www.mjf2020.com" target="_blank" rel="noopener noreferrer">美剧粉</a></td>
       <td nowrap>全部高清无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:meijufen -->🟢&#8288;可&#8288;访问<!-- /availability:meijufen --></td>
-      <td align="center"><!-- availability-date:meijufen -->2026&#8209;06&#8209;19<!-- /availability-date:meijufen --></td>
+      <td align="center" nowrap><!-- availability-date:meijufen -->2026&#8209;06&#8209;19<!-- /availability-date:meijufen --></td>
     </tr>
     <tr>
-      <td><a href="https://www.cilixiong.org" target="_blank" rel="noopener noreferrer">磁力熊</a></td>
+      <td nowrap><a href="https://www.cilixiong.org" target="_blank" rel="noopener noreferrer">磁力熊</a></td>
       <td nowrap>无删减、无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:cilixiong -->🟢&#8288;可&#8288;访问<!-- /availability:cilixiong --></td>
-      <td align="center"><!-- availability-date:cilixiong -->2026&#8209;06&#8209;19<!-- /availability-date:cilixiong --></td>
+      <td align="center" nowrap><!-- availability-date:cilixiong -->2026&#8209;06&#8209;19<!-- /availability-date:cilixiong --></td>
     </tr>
   </tbody>
 </table>
@@ -261,34 +247,34 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://zimuku.org" target="_blank" rel="noopener noreferrer">字幕库</a></td>
+      <td nowrap><a href="https://zimuku.org" target="_blank" rel="noopener noreferrer">字幕库</a></td>
       <td nowrap>字幕下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:zimuku -->🔴&#8288;无法&#8288;访问<!-- /availability:zimuku --></td>
-      <td align="center"><!-- availability-date:zimuku -->2026&#8209;06&#8209;19<!-- /availability-date:zimuku --></td>
+      <td align="center" nowrap><!-- availability-date:zimuku -->2026&#8209;06&#8209;19<!-- /availability-date:zimuku --></td>
     </tr>
     <tr>
-      <td><a href="https://assrt.net" target="_blank" rel="noopener noreferrer">射手网(伪)</a></td>
+      <td nowrap><a href="https://assrt.net" target="_blank" rel="noopener noreferrer">射手网(伪)</a></td>
       <td nowrap>字幕下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:assrt -->🟢&#8288;可&#8288;访问<!-- /availability:assrt --></td>
-      <td align="center"><!-- availability-date:assrt -->2026&#8209;06&#8209;19<!-- /availability-date:assrt --></td>
+      <td align="center" nowrap><!-- availability-date:assrt -->2026&#8209;06&#8209;19<!-- /availability-date:assrt --></td>
     </tr>
     <tr>
-      <td><a href="https://subhd.tv" target="_blank" rel="noopener noreferrer">SubHD</a></td>
+      <td nowrap><a href="https://subhd.tv" target="_blank" rel="noopener noreferrer">SubHD</a></td>
       <td nowrap>分享下载字幕平台</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:subhd -->🟡&#8288;访问&#8288;受限<!-- /availability:subhd --></td>
-      <td align="center"><!-- availability-date:subhd -->2026&#8209;06&#8209;19<!-- /availability-date:subhd --></td>
+      <td align="center" nowrap><!-- availability-date:subhd -->2026&#8209;06&#8209;19<!-- /availability-date:subhd --></td>
     </tr>
   </tbody>
 </table>
@@ -300,20 +286,20 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://kodi.tv/" target="_blank" rel="noopener noreferrer">Kodi</a></td>
+      <td nowrap><a href="https://kodi.tv/" target="_blank" rel="noopener noreferrer">Kodi</a></td>
       <td nowrap>开源、跨平台家庭媒体中心</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kodi -->🟡&#8288;访问&#8288;受限<!-- /availability:kodi --></td>
-      <td align="center"><!-- availability-date:kodi -->2026&#8209;06&#8209;19<!-- /availability-date:kodi --></td>
+      <td align="center" nowrap><!-- availability-date:kodi -->2026&#8209;06&#8209;19<!-- /availability-date:kodi --></td>
     </tr>
   </tbody>
 </table>
@@ -325,20 +311,20 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">IPTV-org</a></td>
+      <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">IPTV-org</a></td>
       <td nowrap>社区维护的公开 IPTV 频道集合</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:iptv-org -->🟢&#8288;可&#8288;访问<!-- /availability:iptv-org --></td>
-      <td align="center"><!-- availability-date:iptv-org -->2026&#8209;06&#8209;19<!-- /availability-date:iptv-org --></td>
+      <td align="center" nowrap><!-- availability-date:iptv-org -->2026&#8209;06&#8209;19<!-- /availability-date:iptv-org --></td>
     </tr>
   </tbody>
 </table>
@@ -351,6 +337,20 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 <!-- featured-resources:end -->
+
+## 怎么快速选择
+
+如果你只是想尽快找到合适入口，可以先按用途筛选，再看推荐指数、状态和检测时间。
+
+| 需求 | 优先看 | 适合场景 | 先注意 |
+| --- | --- | --- | --- |
+| 直接在线看 | 在线影视 | 临时追剧、确认片源是否存在 | 广告、跳转、版权与安全风险 |
+| 找追剧应用 | 影视APP | 手机、电视端安装应用追剧 | 安装来源、权限和安全风险 |
+| 找网盘分享 | 网盘资源搜索 | 想保存到网盘或找合集 | 分享链接有效期、诱导下载与版权风险 |
+| 找磁力入口 | 磁力& BT | 想找磁力、BT 或相关资源站 | 版权、链接安全与下载隐私风险 |
+| 找字幕 | 字幕资源 | 外语片、冷门片、版本匹配 | 字幕版本、上传来源与下载安全 |
+| 电视端播放 | TVbox播放器、订阅源 | 电视盒子、NAS、客厅播放 | 插件、订阅源与频道来源是否可信 |
+| 省会员费用 | 会员拼团 | 正规会员合租或优惠信息 | 支付规则、账号归属和售后风险 |
 
 ## 怎么看评分
 

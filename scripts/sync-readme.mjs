@@ -127,11 +127,11 @@ function tableFor(resources, availabilityById) {
       const checkedAt = dateInTimeZone(availability?.checked_at);
 
       return `    <tr>
-      <td><a href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a></td>
+      <td nowrap><a href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a></td>
       <td nowrap>${escapeHtml(shortSummary(resource))}</td>
       <td align="center" nowrap>${recommendationStars(resource)}</td>
       <td align="center" nowrap><!-- availability:${resource.id} -->${status}<!-- /availability:${resource.id} --></td>
-      <td align="center"><!-- availability-date:${resource.id} -->${checkedAt}<!-- /availability-date:${resource.id} --></td>
+      <td align="center" nowrap><!-- availability-date:${resource.id} -->${checkedAt}<!-- /availability-date:${resource.id} --></td>
     </tr>`;
     })
     .join("\n");
@@ -139,11 +139,11 @@ function tableFor(resources, availabilityById) {
   return `<table width="100%">
   <thead>
     <tr>
-      <th width="20%">资源</th>
-      <th width="30%">简介</th>
-      <th width="20%">推荐指数</th>
-      <th width="15%">状&#8288;态</th>
-      <th width="15%">检测时间</th>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
     </tr>
   </thead>
   <tbody>
