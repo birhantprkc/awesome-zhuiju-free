@@ -392,7 +392,7 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td nowrap>牛蛙</td>
       <td><code>http:<wbr>/<wbr>/<wbr>tvbox.<wbr>xn-<wbr>-<wbr>4kq62z5rby2qupq9ub.<wbr>top/<wbr></code></td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:niu-wa -->🟢&#8288;可&#8288;访问<!-- /availability:niu-wa --></td>
+      <td align="center" nowrap><!-- availability:niu-wa -->🔴&#8288;无法&#8288;访问<!-- /availability:niu-wa --></td>
       <td align="center" nowrap><!-- availability-date:niu-wa -->2026&#8209;07&#8209;04<!-- /availability-date:niu-wa --></td>
     </tr>
     <tr>
