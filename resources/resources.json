@@ -498,6 +498,310 @@
       "featured": true
     },
     {
+      "id": "auete-video",
+      "name": "Auete影视",
+      "url": "https://au1080.com",
+      "category": "online_video",
+      "summary": "蓝光超清精品影视，发布页 https://auete.pro。",
+      "summary_short": "蓝光超清精品影视，发布页auete.pro",
+      "tags": ["在线影视", "高清影视", "发布页"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为蓝光超清精品影视，发布页https://auete.pro；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "dyrs",
+      "name": "电影人生",
+      "url": "https://dyrs.tv",
+      "category": "online_video",
+      "summary": "高清电影在线观看。",
+      "summary_short": "高清电影在线观看",
+      "tags": ["在线影视", "电影", "高清影视"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为高清电影在线观看；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "darkvod",
+      "name": "黑夜影院",
+      "url": "https://darkvod.com",
+      "category": "online_video",
+      "summary": "综合影视资源较多，页面无广告。",
+      "summary_short": "综合影视/资源多/无广告",
+      "tags": ["在线影视", "综合影视", "无广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为综合影视/资源多/无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "netflixgc",
+      "name": "奈飞工厂",
+      "url": "https://www.netflixgc.com",
+      "category": "online_video",
+      "summary": "主打最新美剧资源，页面无广告。",
+      "summary_short": "最新美剧，无广告",
+      "tags": ["在线影视", "美剧", "无广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为最新美剧，无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "nfyingshi",
+      "name": "奈菲影视",
+      "url": "https://www.nfyingshi.com",
+      "category": "online_video",
+      "summary": "热门美剧资源，更新较快，无广告。",
+      "summary_short": "热门美剧，更新快无广告",
+      "tags": ["在线影视", "美剧", "无广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为热门美剧，更新快无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "nivod",
+      "name": "泥视频",
+      "url": "https://www.nivod.vip",
+      "category": "online_video",
+      "summary": "热门国剧资源，更新较快，无广告。",
+      "summary_short": "热门国剧，更新快，无广告",
+      "tags": ["在线影视", "国剧", "无广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为热门国剧，更新快，无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "ppnix",
+      "name": "PPnix",
+      "url": "https://www.ppnix.com/cn/",
+      "category": "online_video",
+      "summary": "热门在线影视，速度快，纯净无广告。",
+      "summary_short": "热门在线影视，速度快/纯净/无广告",
+      "tags": ["在线影视", "热门影视", "无广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为热门在线影视，速度快/纯净/无广告；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "dbku",
+      "name": "独播库",
+      "url": "https://www.dbku.tv",
+      "category": "online_video",
+      "summary": "页面无广告，体验较纯净。",
+      "summary_short": "页面无广告，纯净",
+      "tags": ["在线影视", "纯净", "无广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.0,
+        "speed": 4.0,
+        "clean": 4.0,
+        "stable": 4.0,
+        "ease": 4.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 4 星，测评备注为页面无广告，纯净；截图状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
       "id": "zimuku",
       "name": "字幕库",
       "url": "https://zimuku.org",
@@ -1349,6 +1653,82 @@
       "source": {
         "submitted_by": "maintainer",
         "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "ciligou",
+      "name": "磁力狗",
+      "url": "https://clg56.top",
+      "category": "magnet_search",
+      "summary": "干净好用的磁力资源搜索。",
+      "summary_short": "干净好用的磁力资源搜索",
+      "tags": ["磁力", "BT", "资源搜索"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为干净好用的磁力资源搜索；截图状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
+      },
+      "featured": true
+    },
+    {
+      "id": "bt-yingshi",
+      "name": "BT影视",
+      "url": "https://www.btbtl.com",
+      "category": "magnet_search",
+      "summary": "4k高清电影BT下载。",
+      "summary_short": "4k高清电影BT下载",
+      "tags": ["磁力", "BT", "4K", "电影"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-04",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为4k高清电影BT下载；截图状态不作为本项目状态依据，内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-04"
       },
       "featured": true
     },

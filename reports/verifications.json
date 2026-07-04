@@ -152,6 +152,58 @@
       },
       "result": "pending_review",
       "notes": "用户提交影视仓配置地址：饭太硬、肥猫、老刘备、俊佬、小马、摸鱼儿、王二小、小盒子4K、小盒子单仓、VOX、嗷呜、小盒子多仓、拾光多仓、挺好分享多仓，以及 TV 工具箱“小盒子”。配置地址在 README 地址列以代码样式展示，方便用户复制；带官网的资源名保留超链接；后续由 GitHub Actions 自动检测可用性。"
+    },
+    {
+      "id": "verify-20260704-ciligou",
+      "resource_ids": [
+        "ciligou"
+      ],
+      "checked_at": "2026-07-04",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "screenshot submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据截图信息收录：磁力狗（https://clg56.top，测评备注：干净好用的磁力资源搜索），推荐指数为 5 星。截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与链接安全性。"
+    },
+    {
+      "id": "verify-20260704-bt-yingshi",
+      "resource_ids": [
+        "bt-yingshi"
+      ],
+      "checked_at": "2026-07-04",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "screenshot submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据截图信息收录：BT影视（https://www.btbtl.com，测评备注：4k高清电影BT下载），推荐指数为 5 星。截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与链接安全性。"
+    },
+    {
+      "id": "verify-20260704-online-video-third-batch",
+      "resource_ids": [
+        "auete-video",
+        "dyrs",
+        "darkvod",
+        "netflixgc",
+        "nfyingshi",
+        "nivod",
+        "ppnix",
+        "dbku"
+      ],
+      "checked_at": "2026-07-04",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "screenshot submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据截图信息收录在线影视资源：Auete影视、电影人生、黑夜影院、奈飞工厂、奈菲影视、泥视频、PPnix 和独播库。推荐指数、访问网址和简介按截图填写；注视影视已存在且按要求保持原条目不变；截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性。"
     }
   ]
 }
