@@ -541,7 +541,7 @@
     </tr>
     <tr>
       <td nowrap>潇洒</td>
-      <td><code>https:<wbr>/<wbr>/<wbr>cnb.<wbr>cool/<wbr>fish2018/<wbr>xs/<wbr>-<wbr>/<wbr>git/<wbr>raw/<wbr>main/<wbr>api.<wbr>json</code></td>
+      <td><code>https:<wbr>/<wbr>/<wbr>cnb.<wbr>cool/<wbr>fish2018/<wbr>xs/<wbr>-<wbr>/<wbr><br>git/<wbr>raw/<wbr>main/<wbr>api.<wbr>json</code></td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:xiao-sa -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-sa --></td>
       <td align="center" nowrap><!-- availability-date:xiao-sa -->2026&#8209;07&#8209;12<!-- /availability-date:xiao-sa --></td>

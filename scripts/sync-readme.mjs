@@ -31,8 +31,41 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function urlDisplayParts(value) {
+  const match = String(value).match(/^(https?:\/\/[^/?#]+\/?)([^?#]*)([?#].*)?$/);
+  if (!match) {
+    return [value];
+  }
+
+  const [, base, path = "", suffix = ""] = match;
+  if (!path) {
+    return [`${base}${suffix}`];
+  }
+
+  const pathParts = path
+    .split("/")
+    .filter(Boolean)
+    .map((part, index, parts) => `${part}${index < parts.length - 1 ? "/" : ""}`);
+  if (suffix) {
+    pathParts[pathParts.length - 1] = `${pathParts[pathParts.length - 1] ?? ""}${suffix}`;
+  }
+  return [base, ...pathParts];
+}
+
 function breakableCode(value) {
-  return escapeHtml(value).replaceAll(/([/:._-])/g, "$1<wbr>");
+  const maxLineLength = 34;
+  const shouldHardBreak = value.length > 48;
+  let lineLength = 0;
+
+  return urlDisplayParts(value)
+    .map((part) => {
+      const needsBreak =
+        shouldHardBreak && lineLength > 0 && lineLength + part.length > maxLineLength;
+      lineLength = needsBreak ? part.length : lineLength + part.length;
+      const breakPrefix = needsBreak ? "<br>" : "";
+      return `${breakPrefix}${escapeHtml(part).replaceAll(/([/:._-])/g, "$1<wbr>")}`;
+    })
+    .join("");
 }
 
 function anchorFor(name) {
