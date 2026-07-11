@@ -295,6 +295,21 @@
       },
       "result": "pending_review",
       "notes": "根据用户补充收录 Kazumi（https://kazumi.app/download），简介为免费无广告/在线观看番剧，支持 Android、iOS、Windows、macOS 和 HarmonyOS NEXT；后续由 GitHub Actions 自动检测可用性，并持续观察应用安装来源、内容来源、版权状态与隐私安全。"
+    },
+    {
+      "id": "verify-20260712-selenetv",
+      "resource_ids": [
+        "selenetv-app"
+      ],
+      "checked_at": "2026-07-12",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "user submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据用户补充收录 SeleneTV（https://b.zhuiju.me/archives/4/），简介为跨平台 MoonTV 客户端，支持 Android、iOS、macOS 和 Windows；后续由 GitHub Actions 自动检测可用性，并持续观察应用安装来源、内容来源、版权状态与隐私安全。"
     }
   ]
 }

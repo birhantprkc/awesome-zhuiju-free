@@ -1133,6 +1133,61 @@
       "featured": true
     },
     {
+      "id": "selenetv-app",
+      "name": "SeleneTV",
+      "url": "https://b.zhuiju.me/archives/4/",
+      "category": "video_app",
+      "summary": "跨平台 MoonTV 客户端。",
+      "summary_short": "跨平台 MoonTV 客户端",
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows"
+      ],
+      "tags": [
+        "影视APP",
+        "MoonTV",
+        "Helios",
+        "客户端",
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录 SeleneTV 下载说明页；简介为跨平台 MoonTV 客户端，支持 Android、iOS、macOS 和 Windows。应用安装来源、内容来源、版权状态与隐私安全需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
       "id": "zimuku",
       "name": "字幕库",
       "url": "https://zimuku.org",

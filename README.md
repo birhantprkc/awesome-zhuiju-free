@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-64_个资源-0f766e?style=for-the-badge" alt="已收录 64 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-65_个资源-0f766e?style=for-the-badge" alt="已收录 65 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
@@ -48,7 +48,7 @@
 <!-- featured-resources:start -->
 <p align="center">
   <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-23-2563eb?style=flat-square" alt="在线影视"></a>
-  <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-2-0f766e?style=flat-square" alt="影视APP"></a>
+  <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-0f766e?style=flat-square" alt="影视APP"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-64748b?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-4-7c3aed?style=flat-square" alt="磁力& BT"></a>
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-d97706?style=flat-square" alt="字幕资源"></a>
@@ -262,6 +262,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td nowrap><a href="https://b.zhuiju.me/archives/4/" target="_blank" rel="noopener noreferrer">SeleneTV</a></td>
+      <td nowrap>跨平台 MoonTV 客户端</td>
+      <td align="center" nowrap>Android、iOS、macOS、Windows</td>
+      <td align="center" nowrap><!-- availability:selenetv-app -->🟢&#8288;可&#8288;访问<!-- /availability:selenetv-app --></td>
+      <td align="center" nowrap><!-- availability-date:selenetv-app -->2026&#8209;07&#8209;12<!-- /availability-date:selenetv-app --></td>
+    </tr>
     <tr>
       <td nowrap><a href="https://kazumi.app/download" target="_blank" rel="noopener noreferrer">Kazumi</a></td>
       <td nowrap>免费无广告/在线观看番剧</td>

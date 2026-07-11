@@ -285,6 +285,17 @@
       "error": null
     },
     {
+      "resource_id": "selenetv-app",
+      "url": "https://b.zhuiju.me/archives/4/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://b.zhuiju.me/archives/4/",
+      "response_ms": 1500,
+      "checked_at": "2026-07-11T20:10:47.340Z",
+      "attempts": 1,
+      "error": null
+    },
+    {
       "resource_id": "zimuku",
       "url": "https://zimuku.org",
       "status": "unreachable",
