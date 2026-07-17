@@ -23,49 +23,19 @@ const categories = [
   { id: "open_source", name: "开源项目", badge: "开源项目", color: "0f172a" }
 ];
 
-function escapeHtml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
+function markdownCell(value) {
+  return String(value).replaceAll("|", "\\|").replaceAll(/\r?\n/g, " ");
 }
 
-function urlDisplayParts(value) {
-  const match = String(value).match(/^(https?:\/\/[^/?#]+\/?)([^?#]*)([?#].*)?$/);
-  if (!match) {
-    return [value];
-  }
-
-  const [, base, path = "", suffix = ""] = match;
-  if (!path) {
-    return [`${base}${suffix}`];
-  }
-
-  const pathParts = path
-    .split("/")
-    .filter(Boolean)
-    .map((part, index, parts) => `${part}${index < parts.length - 1 ? "/" : ""}`);
-  if (suffix) {
-    pathParts[pathParts.length - 1] = `${pathParts[pathParts.length - 1] ?? ""}${suffix}`;
-  }
-  return [base, ...pathParts];
+function markdownLink(label, url) {
+  const safeLabel = String(label).replaceAll("[", "\\[").replaceAll("]", "\\]");
+  const safeUrl = String(url).replaceAll(">", "%3E");
+  return `[${markdownCell(safeLabel)}](<${safeUrl}>)`;
 }
 
-function breakableCode(value) {
-  const maxLineLength = 34;
-  const shouldHardBreak = value.length > 48;
-  let lineLength = 0;
-
-  return urlDisplayParts(value)
-    .map((part) => {
-      const needsBreak =
-        shouldHardBreak && lineLength > 0 && lineLength + part.length > maxLineLength;
-      lineLength = needsBreak ? part.length : lineLength + part.length;
-      const breakPrefix = needsBreak ? "<br>" : "";
-      return `${breakPrefix}${escapeHtml(part).replaceAll(/([/:._-])/g, "$1<wbr>")}`;
-    })
-    .join("");
+function markdownCode(value) {
+  const text = markdownCell(value);
+  return text.includes("`") ? `\`\` ${text} \`\`` : `\`${text}\``;
 }
 
 function anchorFor(name) {
@@ -227,69 +197,36 @@ function tableFor(resources, availabilityById, options = {}) {
           ? options.showUrlInSummary(resource)
           : options.showUrlInSummary;
       const nameCell = plainName
-        ? escapeHtml(resource.name)
-        : `<a href="${escapeHtml(resource.link_url ?? resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a>`;
+        ? markdownCell(resource.name)
+        : markdownLink(resource.name, resource.link_url ?? resource.url);
       const summaryCell = showUrlInSummary
-        ? `<code>${breakableCode(resource.url)}</code>`
-        : escapeHtml(shortSummary(resource));
-      const summaryAttribute = showUrlInSummary ? "" : " nowrap";
+        ? markdownCode(resource.url)
+        : markdownCell(shortSummary(resource));
       const thirdCell =
         typeof options.thirdCell === "function"
           ? options.thirdCell(resource)
           : recommendationStars(resource);
 
-      return `    <tr>
-      <td nowrap>${nameCell}</td>
-      <td${summaryAttribute}>${summaryCell}</td>
-      <td align="center" nowrap>${thirdCell}</td>
-      <td align="center" nowrap><!-- availability:${resource.id} -->${status}<!-- /availability:${resource.id} --></td>
-      <td align="center" nowrap><!-- availability-date:${resource.id} -->${checkedAt}<!-- /availability-date:${resource.id} --></td>
-    </tr>`;
+      return `| ${nameCell} | ${summaryCell} | ${markdownCell(thirdCell)} | <!-- availability:${resource.id} -->${status}<!-- /availability:${resource.id} --> | <!-- availability-date:${resource.id} -->${checkedAt}<!-- /availability-date:${resource.id} --> |`;
     })
     .join("\n");
 
-  return `<table width="100%">
-  <thead>
-    <tr>
-      <th width="20%" nowrap>资源</th>
-      <th width="30%" nowrap>${summaryHeading}</th>
-      <th width="20%" nowrap>${thirdHeading}</th>
-      <th width="15%" nowrap>状&#8288;态</th>
-      <th width="15%" nowrap>检测时间</th>
-    </tr>
-  </thead>
-  <tbody>
-${rows}
-  </tbody>
-</table>`;
+  return `| 资源 | ${summaryHeading} | ${thirdHeading} | 状态 | 检测时间 |
+| --- | --- | :---: | :---: | :---: |
+${rows}`;
 }
 
 function openSourceTableFor(resources) {
   const starFormatter = new Intl.NumberFormat("en-US");
   const rows = resources
     .map((resource) => {
-      return `    <tr>
-      <td nowrap><a href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.name)}</a></td>
-      <td nowrap>${escapeHtml(shortSummary(resource))}</td>
-      <td align="center" nowrap>${escapeHtml(starFormatter.format(resource.github.stars))}</td>
-      <td align="center" nowrap>${escapeHtml(plainDateInTimeZone(resource.github.pushed_at))}</td>
-    </tr>`;
+      return `| ${markdownLink(resource.name, resource.url)} | ${markdownCell(shortSummary(resource))} | ${markdownCell(starFormatter.format(resource.github.stars))} | ${markdownCell(plainDateInTimeZone(resource.github.pushed_at))} |`;
     })
     .join("\n");
 
-  return `<table width="100%">
-  <thead>
-    <tr>
-      <th width="25%" nowrap>资源</th>
-      <th width="45%" nowrap>简介</th>
-      <th width="15%" nowrap>star数</th>
-      <th width="15%" nowrap>最近更新</th>
-    </tr>
-  </thead>
-  <tbody>
-${rows}
-  </tbody>
-</table>`;
+  return `| 资源 | 简介 | star数 | 最近更新 |
+| --- | --- | :---: | :---: |
+${rows}`;
 }
 
 function categorySection(category, resources, availabilityById) {
@@ -308,7 +245,7 @@ function categorySection(category, resources, availabilityById) {
             thirdHeading: category.id === "video_app" ? "支持平台" : "推荐指数",
             thirdCell:
               category.id === "video_app"
-                ? (resource) => escapeHtml((resource.platforms ?? []).join("、") || "未注明")
+                ? (resource) => markdownCell((resource.platforms ?? []).join("、") || "未注明")
                 : undefined,
             plainName: (resource) =>
               category.id === "tvbox_config" && !resource.link_url,
