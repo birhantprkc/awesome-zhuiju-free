@@ -6,9 +6,12 @@ const availabilityPath = new URL("reports/availability.json", root);
 const readmePath = new URL("README.md", root);
 const startMarker = "<!-- featured-resources:start -->";
 const endMarker = "<!-- featured-resources:end -->";
+const contributorsStartMarker = "<!-- community-contributors:start -->";
+const contributorsEndMarker = "<!-- community-contributors:end -->";
 const countStartMarker = "<!-- resource-count:start -->";
 const countEndMarker = "<!-- resource-count:end -->";
 const timeZone = "Asia/Shanghai";
+const ownerUsername = "laoma2053";
 
 const categories = [
   { id: "online_video", name: "在线影视", badge: "在线影视", color: "2563eb" },
@@ -36,6 +39,14 @@ function markdownLink(label, url) {
 function markdownCode(value) {
   const text = markdownCell(value);
   return text.includes("`") ? `\`\` ${text} \`\`` : `\`${text}\``;
+}
+
+function chunk(items, size) {
+  const rows = [];
+  for (let index = 0; index < items.length; index += size) {
+    rows.push(items.slice(index, index + size));
+  }
+  return rows;
 }
 
 function escapeHtml(value) {
@@ -321,6 +332,89 @@ ${content}
 <p align="right"><a href="#精选资源">返回分类导航</a></p>`;
 }
 
+function communityContributorName(value) {
+  const match = String(value ?? "").trim().match(/^@([A-Za-z0-9-]+)$/);
+  if (!match) {
+    return null;
+  }
+
+  const username = match[1];
+  const lowerUsername = username.toLowerCase();
+  if (lowerUsername === ownerUsername || lowerUsername.endsWith("[bot]")) {
+    return null;
+  }
+  return username;
+}
+
+function communityContributorsFor(resources) {
+  const contributors = new Map();
+
+  for (const resource of resources) {
+    const username = communityContributorName(resource.source?.submitted_by);
+    if (!username) {
+      continue;
+    }
+
+    const addedAt = Date.parse(resource.source?.added_at ?? "") || 0;
+    const current = contributors.get(username) ?? {
+      username,
+      count: 0,
+      firstAddedAt: addedAt || Number.POSITIVE_INFINITY
+    };
+    current.count += 1;
+    current.firstAddedAt = Math.min(current.firstAddedAt, addedAt || Number.POSITIVE_INFINITY);
+    contributors.set(username, current);
+  }
+
+  return [...contributors.values()].sort((left, right) => {
+    return right.count - left.count || left.firstAddedAt - right.firstAddedAt || left.username.localeCompare(right.username);
+  });
+}
+
+function avatarUrl(username) {
+  return `https://images.weserv.nl/?url=github.com/${encodeURIComponent(username)}.png&h=96&w=96&fit=cover&mask=circle`;
+}
+
+function communityContributorsSection(resources) {
+  const contributors = communityContributorsFor(resources);
+  if (contributors.length === 0) {
+    return `${contributorsStartMarker}
+_等待首位通过资源推荐参与共建的社区贡献者。_
+${contributorsEndMarker}`;
+  }
+
+  const rows = chunk(contributors, 6)
+    .map((row) => {
+      const cells = row
+        .map((contributor) => {
+          const profileUrl = `https://github.com/${contributor.username}`;
+          const resourceText = `${contributor.count} 个资源`;
+          return `<td align="center" width="96">
+  <a href="${profileUrl}"><img src="${avatarUrl(contributor.username)}" width="56" height="56" alt="@${contributor.username}"></a><br>
+  <sub><strong>@${contributor.username}</strong></sub><br>
+  <sub>${resourceText}</sub>
+</td>`;
+        })
+        .join("\n");
+      return `<tr>
+${cells}
+</tr>`;
+    })
+    .join("\n");
+
+  return `${contributorsStartMarker}
+<p align="center">感谢这些朋友通过 Issue 推荐资源，并在维护者确认后参与共建。</p>
+
+<table align="center">
+  <tbody>
+${rows}
+  </tbody>
+</table>
+
+<p align="center"><sub>仅展示通过审核并进入资源库的社区推荐者。</sub></p>
+${contributorsEndMarker}`;
+}
+
 const resourcesData = JSON.parse(await readFile(resourcesPath, "utf8"));
 const availabilityData = JSON.parse(await readFile(availabilityPath, "utf8"));
 const featuredResources = resourcesData.resources.filter((resource) => resource.featured);
@@ -362,6 +456,13 @@ const countBadge = `${countStartMarker}
 <a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-${resourcesData.resources.length}_个资源-00A98F?style=flat-square" alt="已收录 ${resourcesData.resources.length} 个资源" height="24"></a>
 ${countEndMarker}`;
 let updatedReadme = replaceMarkedBlock(readme, startMarker, endMarker, generated, 2);
+updatedReadme = replaceMarkedBlock(
+  updatedReadme,
+  contributorsStartMarker,
+  contributorsEndMarker,
+  communityContributorsSection(resourcesData.resources),
+  2
+);
 updatedReadme = replaceMarkedBlock(
   updatedReadme,
   countStartMarker,

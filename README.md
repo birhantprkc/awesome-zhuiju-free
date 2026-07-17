@@ -335,6 +335,31 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 - [`reports/verifications.json`](reports/verifications.json)：历史验证记录
 - [`reports/notices.json`](reports/notices.json)：投诉与处理记录
 
+## 社区贡献者
+
+<!-- community-contributors:start -->
+<p align="center">感谢这些朋友通过 Issue 推荐资源，并在维护者确认后参与共建。</p>
+
+<table align="center">
+  <tbody>
+<tr>
+<td align="center" width="96">
+  <a href="https://github.com/LFNHHHHH"><img src="https://images.weserv.nl/?url=github.com/LFNHHHHH.png&h=96&w=96&fit=cover&mask=circle" width="56" height="56" alt="@LFNHHHHH"></a><br>
+  <sub><strong>@LFNHHHHH</strong></sub><br>
+  <sub>1 个资源</sub>
+</td>
+<td align="center" width="96">
+  <a href="https://github.com/LesliesCheung"><img src="https://images.weserv.nl/?url=github.com/LesliesCheung.png&h=96&w=96&fit=cover&mask=circle" width="56" height="56" alt="@LesliesCheung"></a><br>
+  <sub><strong>@LesliesCheung</strong></sub><br>
+  <sub>1 个资源</sub>
+</td>
+</tr>
+  </tbody>
+</table>
+
+<p align="center"><sub>仅展示通过审核并进入资源库的社区推荐者。</sub></p>
+<!-- community-contributors:end -->
+
 ## 项目原则
 
 - **持续验证**：收录不是结束，每条记录都应展示最后验证日期。
