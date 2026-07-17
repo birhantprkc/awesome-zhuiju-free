@@ -839,6 +839,10 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 如果你是权利人，认为某条收录不当，请通过 [权利人请求模板](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=rights-holder-request.yml) 联系。项目会公开记录请求与处理结果，但不会公开不必要的个人信息。
 
+## 开源协议
+
+本项目采用 [CC BY 4.0](LICENSE) 授权。你可以在保留署名与许可说明的前提下自由分享、修改与再分发。
+
 ## 友情链接
 
 - [LINUX DO](https://linux.do) —— 新的理想型社区，技术爱好者的聚集地。
