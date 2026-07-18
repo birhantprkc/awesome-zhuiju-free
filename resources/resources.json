@@ -3027,7 +3027,7 @@
       "featured_order": 1,
       "github": {
         "full_name": "mtvpls/MoonTVPlus",
-        "stars": 2738,
+        "stars": 2743,
         "weekly_stars": null,
         "pushed_at": "2026-07-11T02:07:50Z"
       }
@@ -3078,7 +3078,7 @@
       "featured_order": 2,
       "github": {
         "full_name": "Hiram-Wong/zyfun",
-        "stars": 8667,
+        "stars": 8670,
         "weekly_stars": null,
         "pushed_at": "2026-06-25T14:11:54Z"
       }
@@ -3129,7 +3129,7 @@
       "featured_order": 3,
       "github": {
         "full_name": "Guovin/iptv-api",
-        "stars": 24636,
+        "stars": 24642,
         "weekly_stars": null,
         "pushed_at": "2026-07-16T09:14:10Z"
       }
@@ -3180,9 +3180,9 @@
       "featured_order": 4,
       "github": {
         "full_name": "iptv-org/iptv",
-        "stars": 133161,
+        "stars": 133221,
         "weekly_stars": null,
-        "pushed_at": "2026-07-17T13:32:30Z"
+        "pushed_at": "2026-07-18T00:25:48Z"
       }
     },
     {
@@ -3231,7 +3231,7 @@
       "featured_order": 5,
       "github": {
         "full_name": "fish2018/pansou",
-        "stars": 13889,
+        "stars": 13908,
         "weekly_stars": null,
         "pushed_at": "2026-06-14T14:06:26Z"
       }
@@ -3282,7 +3282,7 @@
       "featured_order": 6,
       "github": {
         "full_name": "jiangrui1994/CloudSaver",
-        "stars": 9077,
+        "stars": 9081,
         "weekly_stars": null,
         "pushed_at": "2026-04-20T03:28:29Z"
       }
@@ -3384,9 +3384,9 @@
       "featured_order": 8,
       "github": {
         "full_name": "open-ani/animeko",
-        "stars": 18923,
+        "stars": 18935,
         "weekly_stars": null,
-        "pushed_at": "2026-07-17T13:00:15Z"
+        "pushed_at": "2026-07-18T08:00:54Z"
       }
     },
     {
@@ -3436,9 +3436,9 @@
       "featured_order": 9,
       "github": {
         "full_name": "Predidit/Kazumi",
-        "stars": 27766,
+        "stars": 27792,
         "weekly_stars": null,
-        "pushed_at": "2026-07-17T15:01:00Z"
+        "pushed_at": "2026-07-18T13:32:26Z"
       }
     },
     {
@@ -3488,9 +3488,115 @@
       "featured_order": 10,
       "github": {
         "full_name": "MoonTechLab/Selene",
-        "stars": 2357,
+        "stars": 2361,
         "weekly_stars": null,
         "pushed_at": "2026-05-25T10:26:26Z"
+      }
+    },
+    {
+      "id": "webhometv",
+      "name": "WebHomeTV",
+      "url": "https://github.com/fish2018/webhtv",
+      "category": "open_source",
+      "summary": "WebHomeTV 是基于 FongMi / CatVod 二次开发的 Android 影音应用。",
+      "summary_short": "基于 FongMi/CatVod 二开的 Android 影音应用",
+      "tags": [
+        "开源项目",
+        "Android",
+        "FongMi",
+        "CatVod",
+        "影音应用"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数、最近一周 Star 与仓库更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-18"
+      },
+      "featured": true,
+      "featured_order": 11,
+      "github": {
+        "full_name": "fish2018/webhtv",
+        "stars": 911,
+        "weekly_stars": null,
+        "pushed_at": "2026-07-17T10:40:54Z"
+      }
+    },
+    {
+      "id": "webhometv2",
+      "name": "WebHomeTV2",
+      "url": "https://github.com/Silent1566/webhtv",
+      "category": "open_source",
+      "summary": "WebHomeTV2 基于 WebHomeTV 二次开发，支持 TMDB 海报。",
+      "summary_short": "基于 WebHomeTV 二开，支持 TMDB 海报",
+      "tags": [
+        "开源项目",
+        "Android",
+        "WebHomeTV",
+        "TMDB",
+        "影音应用"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "free",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "unknown",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "low"
+      },
+      "verification": {
+        "status": "recommended",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "根据 GitHub 公开仓库信息收录；star 数、最近一周 Star 与仓库更新时间来自 GitHub API。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-18"
+      },
+      "featured": true,
+      "featured_order": 12,
+      "github": {
+        "full_name": "Silent1566/webhtv",
+        "stars": 304,
+        "weekly_stars": null,
+        "pushed_at": "2026-07-18T15:07:30Z"
       }
     },
     {
